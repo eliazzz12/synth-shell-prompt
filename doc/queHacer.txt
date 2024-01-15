@@ -1,0 +1,18 @@
+Qué necesito?
+
+Escribir script .sh que permita cambiar entre distintos archivos .config
+tiene que situarse en /.config/synth-shell y hacer cp del archivo que queramos
+a synth-shell-prompt.config
+
+cd /.config/synth-shell
+syso "¿Que configuración quieres cargar?"
+¿? ls ./  (muestra ordenados los archivos) 
+sc.next nombre
+switch (nombre) 
+	rosa: mv synth-shell-prompt-rosa.config synth-shell-prompt.config
+	verde: mv synth-shell-prompt-verde.config synth-shell-prompt.config
+
+echo "config file changed correctly"
+echo "Restart your terminal to see the changes"
+
+Alias para ejecutar el .sh pasando por parámetros
