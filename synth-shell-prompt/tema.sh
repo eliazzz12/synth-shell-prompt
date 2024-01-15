@@ -31,7 +31,7 @@ function searchForFile(){
 function searchWithParams(){
     if [ -f "$FILE" ];
     then
-        cp $1 .././synth-shell-prompt.config
+        cp $FILE .././synth-shell-prompt.config
         NewSearch="N"
 
     elif [ -f "${Prefix}${FILE}${Suffix}" ];
@@ -50,7 +50,7 @@ function choose(){
     echo
     ls
     echo
-    echo "Puedes escribir el nombre entero u omitir el *$Prefix*"
+    echo "Puedes escribir el nombre entero u omitir el *$Prefix* y el *.config*"
     echo
     read -p "Archivo: " FILE
     echo
