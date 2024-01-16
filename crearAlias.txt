@@ -6,7 +6,6 @@ cambiaTema(){
 read -p : INPUT  
 cd ~/temaPrompt/synth-shell-prompt/synth-shell-prompt 
 ./tema.sh $INPUT
-source ~/.bashrc
 }
 
 
