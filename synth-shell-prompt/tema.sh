@@ -50,7 +50,7 @@ function choose(){
     echo
     ls
     echo
-    echo "Puedes escribir el nombre entero u omitir el *$Prefix* y el *.config*"
+    echo "Puedes escribir el nombre entero u omitir el *$Prefix* y el *$Suffix*"
     echo
     read -p "Archivo: " FILE
     echo
