@@ -12,3 +12,4 @@ cd ~/temaPrompt/synth-shell-prompt/synth-shell-prompt
 alias tema=cambiaTema
 
 
+\
