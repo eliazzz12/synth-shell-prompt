@@ -1,0 +1,13 @@
+
+
+##-----------------------------------------------------
+## MIS ALIAS
+cambiaTema(){
+read -p : INPUT  
+cd /home/elias/github/mi-synth-shell/synth-shell-prompt/synth-shell-prompt 
+./tema.sh 
+}
+
+
+alias tema=cambiaTema
+
