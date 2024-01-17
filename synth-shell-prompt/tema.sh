@@ -77,3 +77,5 @@ else
     FILE=$1
     searchWithParams
 fi
+
+source ~/.bashrc
